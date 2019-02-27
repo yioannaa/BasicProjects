@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 @Data
 
-
 public class Email {
 
     private String firstName;
@@ -19,21 +18,44 @@ public class Email {
     private int defaultPasswordLength = 10;
     private String companySuffix = "wow-company.com";
 
+    public String setName(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please, enter your name:");
+        firstName = scanner.next();
 
-    public Email (String firstName, String lastName){
-        this.firstName = firstName;
-        this.lastName = lastName;
+        return "";
+    }
+
+    public String setLastname (){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please, enter your last name: ");
+        lastName = scanner.next();
+        return "";
+    }
+
+
+    public Email (){
+        this.firstName = setName();
+        this.lastName = setLastname();
         this.department = setDepartment();
         System.out.println("Your department is: " + this.department);
         this.password = randomPassword(defaultPasswordLength);
         System.out.println("Your password is: " + this.password);
+        this.email = generateEmail();
+        System.out.println("Your email is: " + this.email);
     }
 
+    public String generateEmail (){
+          email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" +
+                  department + "." + companySuffix;
+
+          return email;
+    }
 
 
     private String setDepartment() {
         System.out.println("DEPARTMENT CODES:\n 1 for Sales \n 2 for Development \n 3 for Accouting \n" +
-                "0 for none \n Enter department code:");
+                " 0 for none \n Enter department code:");
 
         Scanner scanner = new Scanner(System.in);
 
@@ -47,10 +69,12 @@ public class Email {
             case 3:
                 return "Accounting";
             case 0:
-                return " ";
+                return "";
         }
         return " ";
     }
+
+
 
     // Generate a random password
     private String randomPassword (int length) {
