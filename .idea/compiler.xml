@@ -8,10 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="BasicProjects" />
+        <module name="EmailApp" />
+        <module name="StudentDataApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BasicProjects" target="8" />
+      <module name="EmailApp" target="8" />
+      <module name="StudentDataApp" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

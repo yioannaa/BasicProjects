@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79ae5e25-fb6f-4e61-ac67-2992e8d9b7dc" name="Default Changelist" comment="setDepartment class added">
+    <list default="true" id="79ae5e25-fb6f-4e61-ac67-2992e8d9b7dc" name="Default Changelist" comment="StudentDataApp created">
+      <change afterPath="$PROJECT_DIR$/EmailApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentDataApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/emailapp/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/emailapp/EmailApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/emailapp/EmailApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailApp/EmailApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EmailApp/EmailApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/emailapp/EmailApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/EmailApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSONStudent" beforeDir="false" afterPath="$PROJECT_DIR$/../JSONStudent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../openweather" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/EmailApp/target/" />
+    <ignored path="$PROJECT_DIR$/StudentDataApp/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/emailapp/Email.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2522#2523#0" expanded="true" />
@@ -34,10 +45,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/emailapp/EmailApp.java">
+        <entry file="file://$PROJECT_DIR$/BasicProjects.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="158">
+              <caret line="41" selection-start-line="9" selection-end-line="44" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmailApp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudentDataApp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/EmailApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -58,9 +119,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/pl/emailapp/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/emailapp/EmailApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/emailapp/Email.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/EmailApp/pom.xml" />
+        <option value="$PROJECT_DIR$/StudentDataApp/pom.xml" />
+        <option value="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java" />
+        <option value="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java" />
+        <option value="$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/Email.java" />
+        <option value="$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/EmailApp.java" />
       </list>
     </option>
   </component>
@@ -94,17 +161,25 @@
             <path>
               <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -112,6 +187,7 @@
             <path>
               <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -120,11 +196,57 @@
             <path>
               <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pl" type="462c0819:PsiDirectoryNode" />
               <item name="emailapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentDataApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentDataApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentDataApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentDataApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentDataApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentDataApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="studentDataApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -138,11 +260,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551280491666" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551300793630" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asia\sdaProjects\sdaProjects\BasicProjects\EmailApp" />
       <recent name="C:\Users\Asia\sdaProjects\sdaProjects\BasicProjects\src\main\java" />
       <recent name="C:\Users\Asia\sdaProjects\sdaProjects\BasicProjects\src\main" />
     </key>
@@ -214,13 +337,20 @@
       <option name="project" value="LOCAL" />
       <updated>1551269430381</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="generateEmail added">
+      <created>1551280693152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551280693153</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -229,7 +359,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -237,7 +367,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -251,21 +381,54 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setDepartment class added" />
     <MESSAGE value="randomPassword class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="randomPassword class added" />
+    <MESSAGE value="generateEmail added" />
+    <MESSAGE value="StudentDataApp created" />
+    <option name="LAST_COMMIT_MESSAGE" value="StudentDataApp created" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/emailapp/Main.java" />
+    <entry file="file://$PROJECT_DIR$/BasicProjects.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="158">
+          <caret line="41" selection-start-line="9" selection-end-line="44" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/emailapp/Email.java">
+    <entry file="file://$PROJECT_DIR$/EmailApp/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        <state relative-caret-position="192">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentDataApp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2522#2523#0" expanded="true" />
@@ -274,10 +437,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/emailapp/EmailApp.java">
+    <entry file="file://$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/EmailApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
