@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79ae5e25-fb6f-4e61-ac67-2992e8d9b7dc" name="Default Changelist" comment="StudentDataApp created">
+    <list default="true" id="79ae5e25-fb6f-4e61-ac67-2992e8d9b7dc" name="Default Changelist" comment="enroll method added (works but needs improvement)">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSONStudent" beforeDir="false" afterPath="$PROJECT_DIR$/../JSONStudent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../openweather" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather" afterDir="false" />
     </list>
@@ -68,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+            <state relative-caret-position="218">
+              <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -194,7 +192,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551389410808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551389875165" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
@@ -299,12 +297,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551300881302</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="enroll method added (works but needs improvement)">
+      <created>1551389633157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551389633158</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -315,13 +319,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -339,7 +343,8 @@
     <MESSAGE value="randomPassword class added" />
     <MESSAGE value="generateEmail added" />
     <MESSAGE value="StudentDataApp created" />
-    <option name="LAST_COMMIT_MESSAGE" value="StudentDataApp created" />
+    <MESSAGE value="enroll method added (works but needs improvement)" />
+    <option name="LAST_COMMIT_MESSAGE" value="enroll method added (works but needs improvement)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/emailapp/Main.java" />
@@ -393,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        <state relative-caret-position="218">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
         </state>
       </provider>
     </entry>
