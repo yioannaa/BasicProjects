@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79ae5e25-fb6f-4e61-ac67-2992e8d9b7dc" name="Default Changelist" comment="enroll method added (works but needs improvement)">
-      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSONStudent" beforeDir="false" afterPath="$PROJECT_DIR$/../JSONStudent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../openweather" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather" afterDir="false" />
     </list>
@@ -36,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -154,7 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551451294947" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551451490129" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
@@ -280,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551450618632</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="array of students">
+      <created>1551451533541</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551451533541</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -321,7 +326,8 @@
     <MESSAGE value="StudentDataApp created" />
     <MESSAGE value="enroll method added (works but needs improvement)" />
     <MESSAGE value="payment and show methods added" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment and show methods added" />
+    <MESSAGE value="array of students" />
+    <option name="LAST_COMMIT_MESSAGE" value="array of students" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/emailapp/Main.java" />
@@ -379,8 +385,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
