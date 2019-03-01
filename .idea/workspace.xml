@@ -4,7 +4,6 @@
     <list default="true" id="79ae5e25-fb6f-4e61-ac67-2992e8d9b7dc" name="Default Changelist" comment="enroll method added (works but needs improvement)">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSONStudent" beforeDir="false" afterPath="$PROJECT_DIR$/../JSONStudent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../openweather" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather" afterDir="false" />
@@ -37,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="238">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -155,7 +154,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551450499589" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551451294947" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
@@ -274,12 +273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551390625414</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="payment and show methods added">
+      <created>1551450618632</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551450618632</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -315,7 +320,8 @@
     <MESSAGE value="generateEmail added" />
     <MESSAGE value="StudentDataApp created" />
     <MESSAGE value="enroll method added (works but needs improvement)" />
-    <option name="LAST_COMMIT_MESSAGE" value="enroll method added (works but needs improvement)" />
+    <MESSAGE value="payment and show methods added" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment and show methods added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/emailapp/Main.java" />
@@ -373,8 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="238">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
