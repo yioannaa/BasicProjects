@@ -52,13 +52,33 @@ public class Student {
             }
         }
         while (1 != 0);
-
-            System.out.println("ENROLLED IN: " + courses);
-            System.out.println("TUITION BALANCE: " + tuitionBalance);
-
-
-
-
     }
+
+
+     public void viewBalance (){
+         System.out.println("Your balance is: " + tuitionBalance +"$.");
+     }
+
+     public void payTuition (){
+
+         System.out.println("Enter your payment.");
+         Scanner scanner = new Scanner(System.in);
+         int payment = scanner.nextInt();
+         tuitionBalance = tuitionBalance - payment;
+         System.out.println("Thank you for your payment of " + payment + "$.");
+         viewBalance();
+     }
+
+     public String showInfo(){
+        return "Name: " + firstName + " " + lastName +
+                "\n Grade: " + grade +
+                "\n Student ID: " + StudentID +
+                "\n Enrolled courses: " + courses +
+                "\n Balance: " + tuitionBalance + "$.";
+     }
+
+
+
+
 
 }

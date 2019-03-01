@@ -6,6 +6,10 @@ public class StudentDataApp {
 
         Student student = new Student();
         student.enroll();
+        student.payTuition();
+        System.out.println(student.showInfo());
+
+
 
     }
 }
