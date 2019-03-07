@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79ae5e25-fb6f-4e61-ac67-2992e8d9b7dc" name="Default Changelist" comment="enroll method added (works but needs improvement)">
+      <change afterPath="$PROJECT_DIR$/BankAccountApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BaseRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Checking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java11/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Optional12/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Process/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/Email.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSONStudent" beforeDir="false" afterPath="$PROJECT_DIR$/../JSONStudent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../openweather" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather" afterDir="false" />
     </list>
@@ -10,6 +24,7 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/EmailApp/target/" />
     <ignored path="$PROJECT_DIR$/StudentDataApp/target/" />
+    <ignored path="$PROJECT_DIR$/BankAccountApp/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,23 +34,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java">
+        <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="e#1558#1559#0" expanded="true" />
-                <element signature="e#1596#1597#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankAccountApp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java">
+        <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="107">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Checking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BaseRate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="40" column="8" selection-start-line="10" selection-start-column="4" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/Email.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/EmailApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -45,6 +131,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,10 +148,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/EmailApp/pom.xml" />
         <option value="$PROJECT_DIR$/StudentDataApp/pom.xml" />
-        <option value="$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/Email.java" />
-        <option value="$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/EmailApp.java" />
         <option value="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java" />
         <option value="$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java" />
+        <option value="$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/Email.java" />
+        <option value="$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/EmailApp.java" />
+        <option value="$PROJECT_DIR$/BankAccountApp/pom.xml" />
+        <option value="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java" />
+        <option value="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Checking.java" />
+        <option value="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java" />
+        <option value="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java" />
       </list>
     </option>
   </component>
@@ -81,14 +173,15 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,47 +192,47 @@
             <path>
               <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentDataApp" type="462c0819:PsiDirectoryNode" />
+              <item name="BankAccountApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentDataApp" type="462c0819:PsiDirectoryNode" />
+              <item name="BankAccountApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentDataApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentDataApp" type="462c0819:PsiDirectoryNode" />
+              <item name="BankAccountApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentDataApp" type="462c0819:PsiDirectoryNode" />
+              <item name="BankAccountApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentDataApp" type="462c0819:PsiDirectoryNode" />
+              <item name="BankAccountApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="studentDataApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="BankAccountApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="bankaccountapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BasicProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -149,10 +242,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551451490129" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551997507523" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
@@ -174,7 +271,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StudentDataApp">
+  <component name="RunManager" selected="Application.EmailApp (1)">
+    <configuration name="EmailApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.emailapp.EmailApp" />
+      <module name="EmailApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.emailapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmailApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.emailapp.EmailApp" />
       <module name="BasicProjects" />
@@ -213,6 +323,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmailApp (1)" />
         <item itemvalue="Application.StudentDataApp" />
         <item itemvalue="Application.EmailApp" />
       </list>
@@ -285,13 +396,20 @@
       <option name="project" value="LOCAL" />
       <updated>1551451533541</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="enroll method added (works but needs improvement)">
+      <created>1551451550940</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551451550940</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2806354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,7 +418,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,20 +442,13 @@
     <MESSAGE value="randomPassword class added" />
     <MESSAGE value="generateEmail added" />
     <MESSAGE value="StudentDataApp created" />
-    <MESSAGE value="enroll method added (works but needs improvement)" />
     <MESSAGE value="payment and show methods added" />
     <MESSAGE value="array of students" />
-    <option name="LAST_COMMIT_MESSAGE" value="array of students" />
+    <MESSAGE value="enroll method added (works but needs improvement)" />
+    <option name="LAST_COMMIT_MESSAGE" value="enroll method added (works but needs improvement)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/emailapp/Main.java" />
-    <entry file="file://$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/EmailApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StudentDataApp/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -352,43 +463,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="41" selection-start-line="9" selection-end-line="44" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BasicProjects.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="595">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/Student.java">
+    <entry file="file://$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/EmailApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#1558#1559#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="342">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="40" column="8" selection-start-line="10" selection-start-column="4" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountApp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BaseRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Checking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BankAccountApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.projectlombok:lombok:1.18.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

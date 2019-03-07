@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BankAccountApp/BankAccountApp.iml" filepath="$PROJECT_DIR$/BankAccountApp/BankAccountApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/BasicProjects.iml" filepath="$PROJECT_DIR$/BasicProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/EmailApp/EmailApp.iml" filepath="$PROJECT_DIR$/EmailApp/EmailApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudentDataApp/StudentDataApp.iml" filepath="$PROJECT_DIR$/StudentDataApp/StudentDataApp.iml" />

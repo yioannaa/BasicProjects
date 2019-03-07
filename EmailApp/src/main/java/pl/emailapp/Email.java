@@ -23,14 +23,14 @@ public class Email {
         System.out.println("Please, enter your name:");
         firstName = scanner.next();
 
-        return "";
+        return firstName;
     }
 
     public String setLastname (){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please, enter your last name: ");
         lastName = scanner.next();
-        return "";
+        return lastName;
     }
 
 
