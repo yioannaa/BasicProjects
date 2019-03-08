@@ -3,7 +3,7 @@ package pl.bankaccountapp;
 public abstract class Account implements BaseRate {
 
     String name;
-    String socialSecurityNumber = ;
+    String socialSecurityNumber;
     double balance;
     static int index = 10000;
     String accountNumber;
@@ -16,10 +16,7 @@ public abstract class Account implements BaseRate {
         balance = initDeposit;
 
         index++;
-
         this.accountNumber = setAcoountNUmber();
-        System.out.println(accountNumber);
-
     }
 
     private String setAcoountNUmber(){
@@ -28,6 +25,14 @@ public abstract class Account implements BaseRate {
         int randomNumber = (int) (Math.random()*Math.pow(10,3));
 
         return lastTwoOfSsN+uniqueID+randomNumber;
+    }
+
+    public void showInfo(){
+        System.out.println(
+                "NAME: " + name +
+                 "\nACCOUNT NUMBER: " + accountNumber +
+                 "\nBALANCE: " + balance
+        );
     }
 
 }
