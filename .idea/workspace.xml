@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BaseRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BaseRate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Checking.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Checking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSONStudent" beforeDir="false" afterPath="$PROJECT_DIR$/../JSONStudent" afterDir="false" />
@@ -27,17 +27,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="391">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            <state relative-caret-position="379">
+              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -45,17 +45,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" column="59" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="67" />
+            <state relative-caret-position="357">
+              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+              <folding>
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Checking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,8 +71,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BaseRate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <folding>
+                <element signature="e#89#90#0" expanded="true" />
+                <element signature="e#115#116#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,10 +147,11 @@
         <option value="$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/Email.java" />
         <option value="$PROJECT_DIR$/EmailApp/src/main/java/pl/emailapp/EmailApp.java" />
         <option value="$PROJECT_DIR$/BankAccountApp/pom.xml" />
-        <option value="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java" />
         <option value="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java" />
-        <option value="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java" />
+        <option value="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BaseRate.java" />
         <option value="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Checking.java" />
+        <option value="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java" />
+        <option value="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java" />
       </list>
     </option>
   </component>
@@ -228,7 +241,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552052178565" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552342815361" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -406,13 +419,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551997713564</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="set depositBox and debitCard added">
+      <created>1552052298444</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552052298444</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -421,7 +442,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,7 +470,8 @@
     <MESSAGE value="array of students" />
     <MESSAGE value="enroll method added (works but needs improvement)" />
     <MESSAGE value="BankAccountApp started, class created" />
-    <option name="LAST_COMMIT_MESSAGE" value="BankAccountApp started, class created" />
+    <MESSAGE value="set depositBox and debitCard added" />
+    <option name="LAST_COMMIT_MESSAGE" value="set depositBox and debitCard added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/emailapp/Main.java" />
@@ -477,10 +499,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BaseRate.java">
+    <entry file="file://$PROJECT_DIR$/BankAccountApp/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -508,45 +544,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountApp/pom.xml">
+    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BaseRate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudentDataApp/src/main/java/pl/studentDataApp/StudentDataApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="67" />
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Checking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+          <folding>
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
         </state>
       </provider>
     </entry>

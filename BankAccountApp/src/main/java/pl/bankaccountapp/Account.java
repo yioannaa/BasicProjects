@@ -17,7 +17,12 @@ public abstract class Account implements BaseRate {
 
         index++;
         this.accountNumber = setAcoountNUmber();
+        setRate();
     }
+
+    public abstract void setRate();
+
+
 
     private String setAcoountNUmber(){
         String lastTwoOfSsN = socialSecurityNumber.substring(socialSecurityNumber.length()-2, socialSecurityNumber.length());
@@ -31,7 +36,8 @@ public abstract class Account implements BaseRate {
         System.out.println(
                 "NAME: " + name +
                  "\nACCOUNT NUMBER: " + accountNumber +
-                 "\nBALANCE: " + balance
+                 "\nBALANCE: " + balance +
+                 "\nRATE: " + rate + "%"
         );
     }
 
