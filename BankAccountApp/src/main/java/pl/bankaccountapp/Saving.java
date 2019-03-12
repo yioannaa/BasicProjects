@@ -21,6 +21,7 @@ public class Saving extends Account {
         safetyDepositBoxKey = (int) (Math.random() + Math.pow(10,4));
     }
 
+    @Override
     public void showInfo(){
         super.showInfo();
         System.out.println("Your saving account features: " +

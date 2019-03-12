@@ -16,7 +16,7 @@ public abstract class Account implements BaseRate {
         balance = initDeposit;
 
         index++;
-        this.accountNumber = setAcoountNUmber();
+        this.accountNumber = setAcoountNumber();
         setRate();
     }
 
@@ -24,12 +24,34 @@ public abstract class Account implements BaseRate {
 
 
 
-    private String setAcoountNUmber(){
+    private String setAcoountNumber(){
         String lastTwoOfSsN = socialSecurityNumber.substring(socialSecurityNumber.length()-2, socialSecurityNumber.length());
         int uniqueID = index;
         int randomNumber = (int) (Math.random()*Math.pow(10,3));
 
         return lastTwoOfSsN+uniqueID+randomNumber;
+    }
+
+    public void deposit (double amount){
+        balance = balance + amount;
+        System.out.println("Depositing $: " + amount);
+        printBalance();
+    }
+
+    public void withdraw(double amount){
+        balance = balance - amount;
+        System.out.println("withdrawing $: " + amount);
+        printBalance();
+    }
+
+    public void transfer (String toWhere, double amount){
+        balance = balance - amount;
+        System.out.println("Transfering $ " + amount + " to " + "toWhere");
+        printBalance();
+    }
+
+    public void printBalance (){
+        System.out.println("Your balance is now: $" + balance);
     }
 
     public void showInfo(){

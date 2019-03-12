@@ -21,6 +21,7 @@ public class Checking extends Account {
         debitCardPIN =(int) (Math.random()* Math.pow(10, 4));
     }
 
+    @Override
     public void showInfo(){
         super.showInfo();
         System.out.println("Your checking account features: " +
