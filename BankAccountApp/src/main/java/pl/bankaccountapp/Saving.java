@@ -2,8 +2,8 @@ package pl.bankaccountapp;
 
 public class Saving extends Account {
 
-    int safetyDepositBoxID;
-    int safetyDepositBoxKey;
+    private int safetyDepositBoxID;
+    private int safetyDepositBoxKey;
 
     public Saving (String name, String socialSecirityNumber, double initDeposit){
         super (name, socialSecirityNumber, initDeposit);

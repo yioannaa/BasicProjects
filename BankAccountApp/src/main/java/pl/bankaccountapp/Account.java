@@ -2,12 +2,12 @@ package pl.bankaccountapp;
 
 public abstract class Account implements BaseRate {
 
-    String name;
-    String socialSecurityNumber;
-    double balance;
-    static int index = 10000;
-    String accountNumber;
-    double rate;
+    private String name;
+    private String socialSecurityNumber;
+    private double balance;
+    private static int index = 10000;
+    protected String accountNumber;
+    protected double rate;
 
     public Account (String name, String socialSecurityNumber, double initDeposit){
 
@@ -22,7 +22,12 @@ public abstract class Account implements BaseRate {
 
     public abstract void setRate();
 
-
+    public void compound(){
+        double accruedInterest = balance * (rate/100);
+        balance = balance + accruedInterest;
+        System.out.println("Accrued interest $: " + accruedInterest);
+        printBalance();
+    }
 
     private String setAcoountNumber(){
         String lastTwoOfSsN = socialSecurityNumber.substring(socialSecurityNumber.length()-2, socialSecurityNumber.length());
@@ -38,9 +43,9 @@ public abstract class Account implements BaseRate {
         printBalance();
     }
 
-    public void withdraw(double amount){
+    public void withdraw (double amount){
         balance = balance - amount;
-        System.out.println("withdrawing $: " + amount);
+        System.out.println("Withdrawing $: " + amount);
         printBalance();
     }
 

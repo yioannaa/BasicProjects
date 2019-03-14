@@ -2,11 +2,11 @@ package pl.bankaccountapp;
 
 public class Checking extends Account {
 
-    int debitCardNumber;
-    int debitCardPIN;
+    private int debitCardNumber;
+    private int debitCardPIN;
 
-    public Checking (String name, String socialSecirityNumber, double initDeposit){
-        super (name, socialSecirityNumber, initDeposit);
+    public Checking (String name, String socialSecurityNumber, double initDeposit){
+        super (name, socialSecurityNumber, initDeposit);
         accountNumber = "2" + accountNumber;
         setDebitCard();
     }
