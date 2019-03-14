@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79ae5e25-fb6f-4e61-ac67-2992e8d9b7dc" name="Default Changelist" comment="enroll method added (works but needs improvement)">
-      <change afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Reader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Checking.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Checking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/Saving.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSONStudent" beforeDir="false" afterPath="$PROJECT_DIR$/../JSONStudent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../openweather" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather" afterDir="false" />
     </list>
@@ -81,10 +77,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="444">
+              <caret line="42" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#830#839#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -220,7 +217,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552572936649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552587953108" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Parser" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -420,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552397405962</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="csv reader added">
+      <created>1552573017745</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1552573017746</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -467,7 +471,8 @@
     <MESSAGE value="set depositBox and debitCard added" />
     <MESSAGE value="rates methods added" />
     <MESSAGE value="transaction methods added" />
-    <option name="LAST_COMMIT_MESSAGE" value="transaction methods added" />
+    <MESSAGE value="csv reader added" />
+    <option name="LAST_COMMIT_MESSAGE" value="csv reader added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/emailapp/Main.java" />
@@ -591,10 +596,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankAccountApp/src/main/java/pl/bankaccountapp/BankAccountApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="444">
+          <caret line="42" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#830#839#0" expanded="true" />
           </folding>
         </state>
       </provider>
